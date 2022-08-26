@@ -1,3 +1,3 @@
 # Project Euler
 
-All my answers for the Projet Euler archives.
+All my answers for the Projet Euler problems.
