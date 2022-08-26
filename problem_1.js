@@ -23,4 +23,4 @@ const problem_1 = (from, to, ...multiples) => {
     return sum;
 }
 
-console.log(problem_1(1, 1000, 3, 5));
+console.log(problem_1(1, 1000, 3, 5)); // -> 233168
