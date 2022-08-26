@@ -4,7 +4,7 @@
  *           By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
  * 
  * Solution : This solution uses a memoize version of the recursive fibonacci method to optimize the solution.
- *            This offers a complexity of O(n) instead of O(1.6180^n)
+ *            This offers a complexity of O(n) instead of 2^O(n)
  * 
  * Complexity : 0(n)
  */
@@ -47,4 +47,4 @@ const problem_2 = (max_term) => {
     return sum;
 }
 
-console.log(problem_2(4000000)); // -> 4613732
+console.log(problem_2(4000000000)); // -> 4613732
